@@ -2,7 +2,7 @@
 
 /* 스킵 네비게이션 */
 #skip {position: relative;}
-#skip a {position: absolute; left: 0px; top: -35px; width: 180px; border: 1px solid #fff; color: #fff; text-align: center; background-color: #333333; line-height: 30px;}
+#skip a {position: absolute; left: 0px; top: -35px; width: 140px; border: 1px solid #fff; color: #fff; text-align: center; background-color: #333333; line-height: 30px;}
 #skip a:hover, #skip a:focus {top: 0px;}
 
 /* 레이아웃 */
@@ -25,3 +25,6 @@
 .header .header-menu {text-align: right;}
 .header .header-menu a {color: #fff; padding: 10px 0 10px 13px; display: inline-block;}
 .header .header-menu a:hover {color: #666666;}
+.header .header-tit {text-align: center;}
+.header .header-tit h1 {color: #fff; display: inline-block; background-color: #4aa8d4; font-size: 28px; padding: 5px 20px 6px 20px; margin-top: 40px; font-weight: normal; text-transform: uppercase;}
+.header .header-tit a {display: inline-block; background-color: #2698cb; font-size: 18px; color: #fff; padding: 5px 20px 6px 20px; margin-top: -5px;}
